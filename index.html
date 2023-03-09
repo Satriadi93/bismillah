@@ -11,20 +11,26 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body style="font-family: 'Shantell Sans', cursive">
     <!-- Header start  -->
     <header class="bg-gradient d-none d-sm-block">
       <div class="container">
         <div class="row">
-          <div class="col text-center pt-3">BMT Batu Hijau | 085237334523</div>
-          <div class="col text-center pt-3">
+          <div class="col text-center pt-1">BMT Batu Hijau | 085237334523</div>
+          <div class="col text-center pt-1">
             Sosial Media :
             <a href="" class="sosial-media text-decoration-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="20"
+                height="20"
                 fill="currentColor"
                 class="bi bi-facebook"
                 viewBox="0 0 16 16"
@@ -37,8 +43,8 @@
             <a href="" class="sosial-media text-decoration-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="20"
+                height="20"
                 fill="currentColor"
                 class="bi bi-whatsapp"
                 viewBox="0 0 16 16"
@@ -51,8 +57,8 @@
             <a href="" class="sosial-media text-decoration-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="20"
+                height="20"
                 fill="currentColor"
                 class="bi bi-youtube"
                 viewBox="0 0 16 16"
@@ -65,8 +71,8 @@
             <a href="" class="sosial-media text-decoration-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="20"
+                height="20"
                 fill="currentColor"
                 class="bi bi-instagram"
                 viewBox="0 0 16 16"
@@ -83,14 +89,19 @@
     <!-- Header End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-lg"
+    >
       <div class="container">
         <a class="logo navbar-brand d-flex" href="#">
-          <img class="p-1" src="./Asset/logo-bmt.png" width="100px" alt="" />
-          <p class="text-center">BMT Batu Hijau</p>
+          <img src="./Asset/logo-bmt.png" width="70px" alt="" />
+          <div class="title-logo">
+            <h4>BMT</h4>
+            <p>Batu Hijau</p>
+          </div>
         </a>
-        <button
-          class="navbar-toggler"
+        <div
+          class="navbar-toggler btn btn-outline-success btn-sm"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasExample"
@@ -99,20 +110,20 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link " aria-current="page" href="#"><div class="active">Home</div></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Artikel</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Kontak</a>
             </li>
           </ul>
         </div>
@@ -126,7 +137,7 @@
       tabindex="-1"
       id="offcanvasExample"
       aria-labelledby="offcanvasExampleLabel"
-      style="width: 60%"
+      style="width: 70%"
     >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
