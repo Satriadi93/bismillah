@@ -1,0 +1,21 @@
+header {
+  background: green;
+  height: 55px;
+ 
+}
+.container {
+  color: white;
+}
+.sosial-media {
+  padding: 10px;
+  color: white;
+}
+.navbar{
+    background: url(../Asset/bg-nav.png);
+}
+.logo {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
