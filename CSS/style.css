@@ -1,7 +1,7 @@
 header {
   background: green;
-  height: 55px;
- 
+  height: 35px;
+  background-image: linear-gradient(to bottom, green 50%, white 50%);
 }
 .container {
   color: white;
@@ -10,12 +10,84 @@ header {
   padding: 10px;
   color: white;
 }
-.navbar{
-    background: url(../Asset/bg-nav.png);
+.navbar {
+  background: url(../Asset/bg-nav.png);
+  height: 80px;
 }
 .logo {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: -10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title-logo > h4 {
+  display: flex;
+  margin-bottom: -3px;
+  margin-left: 7px;
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+.title-logo > p {
+  display: flex;
+  margin-bottom: -3px;
+  margin-left: 7px;
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
 }
 
+.collapse {
+  justify-content: end;
+  padding: 20px;
+}
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+/* Ukuran Handphone */
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    background: url(../Asset/bg-nav.png);
+    height: 60px;
+  }
+  img {
+    width: 40px;
+  }
+ 
+  .title-logo > h4 {
+    display: flex;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  .title-logo > p {
+    display: flex;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    color: green;
+  }
+  .navbar-toggler {
+    height: 25px;
+    width: 35px;
+  }
+  .navbar-toggler-icon{
+    height: 17px;
+    position: absolute;
+    display: flex;
+    margin-top: -7px;
+    margin-right: 20px;
+    margin-left: -15px;
+
+
+  }
+  .navbar-toggler-icon :hover{
+    background-color: green;
+  }
+}
