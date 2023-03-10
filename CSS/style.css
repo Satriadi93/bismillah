@@ -185,6 +185,9 @@ header {
   .img-fluid.profile {
     width: auto;
   }
+  .card-text.profile{
+    font-size: small;
+  }
   .grup-visi-misi {
     display: flex;
     flex-direction: column;
@@ -215,6 +218,12 @@ header {
     height: 100px;
   }
   .container-fluid.iklan {
-    height: 280px;
+    height: 200px;
+  }
+  .title-description{
+    font-size: small;
+  }
+  .container.footer{
+    font-size: small;
   }
 }
