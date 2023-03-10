@@ -1,14 +1,15 @@
 header {
-  background: green;
+  background: #004d47;
   height: 35px;
-  background-image: linear-gradient(to bottom, green 50%, white 50%);
+
+  background-image: linear-gradient(to bottom, #004d47 50%, white 50%);
 }
 .container {
-  color: white;
+  color: #efd26e;
 }
 .sosial-media {
   padding: 10px;
-  color: white;
+  color: #efd26e;
 }
 .navbar {
   background: url(../Asset/bg-nav.png);
@@ -24,7 +25,7 @@ header {
   margin-bottom: -3px;
   margin-left: 7px;
   font-size: 20px;
-  color: green;
+  color: #004d47;
   font-weight: bold;
 }
 .title-logo > p {
@@ -32,7 +33,7 @@ header {
   margin-bottom: -3px;
   margin-left: 7px;
   font-size: 15px;
-  color: green;
+  color: #004d47;
   font-weight: bold;
 }
 
@@ -45,10 +46,82 @@ header {
   padding-right: 20px;
 }
 .active {
-  color: green;
+  color: #004d47;
   font-weight: bold;
 }
+.container-parent {
+  background: url(../Asset/bg-nav.png);
+}
+.container.bawah-slide {
+  width: 400px;
+  background-color: #004d47;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 20px 20px;
+}
+.container.bawah-slide > p {
+  color: #b3903e;
+  margin-top: -5px;
+  padding-bottom: 2px;
+}
+.container > .card {
+  display: flex;
+}
+.col.css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-fluid.css {
+  background: linear-gradient(to right, #5bff6e, #1c7622, #05450a);
+}
+.container.profile {
+  display: flex;
+  justify-content: center;
+}
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
 
+.grup-visi-misi {
+  display: flex;
+}
+.pro.bg-success.kiri {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0px 0px 10px;
+  width: 320px;
+  height: 100px;
+}
+.pro.bg-success.kanan {
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  width: 320px;
+  height: 100px;
+}
+.pro.bg-success.tengah {
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 100px;
+}
+.pro.pro.bg-success > svg {
+  margin: 10px;
+}
+.pro.bg-success > p {
+  display: contents;
+  padding-left: 10px;
+  text-align: left;
+}
+.title-description {
+  padding: 10px;
+}
+.card {
+  border: none;
+}
 /* Ukuran Handphone */
 
 @media screen and (max-width: 480px) {
@@ -59,35 +132,89 @@ header {
   img {
     width: 40px;
   }
- 
+
   .title-logo > h4 {
     display: flex;
     margin-bottom: -3px;
     margin-left: 10px;
-    color: green;
+    color: #004d47;
     font-weight: bold;
   }
   .title-logo > p {
     display: flex;
     margin-bottom: -3px;
     margin-left: 10px;
-    color: green;
+    color: #004d47;
   }
   .navbar-toggler {
     height: 25px;
     width: 35px;
   }
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     height: 17px;
     position: absolute;
     display: flex;
     margin-top: -7px;
     margin-right: 20px;
     margin-left: -15px;
-
-
   }
-  .navbar-toggler-icon :hover{
-    background-color: green;
+  .navbar-toggler-icon :hover {
+    background-color: #004d47;
+  }
+  .container.bawah-slide {
+    width: 100px;
+    background-color: #004d47;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+  }
+  .container.bawah-slide > h4 {
+    font-size: 10px;
+  }
+  .container.bawah-slide > p {
+    font-size: 7px;
+    margin-top: -5px;
+    padding-bottom: 2px;
+    color: #b3903e;
+  }
+  .card-img,
+  .card-img-top {
+    margin-top: -8px;
+  }
+  .img-fluid.profile {
+    width: auto;
+  }
+  .grup-visi-misi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pro.bg-success.kiri {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+    height: 100px;
+  }
+  .pro.bg-success.kanan {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+    height: 100px;
+  }
+  .pro.bg-success.tengah {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+    height: 100px;
+  }
+  .container-fluid.iklan {
+    height: 280px;
   }
 }
