@@ -122,6 +122,10 @@ header {
 .card {
   border: none;
 }
+.container-fluid.Struktur-organisasi{
+  background: url(../Asset/bg-nav.png);
+}
+
 /* Ukuran Handphone */
 
 @media screen and (max-width: 480px) {
@@ -218,7 +222,7 @@ header {
     height: 100px;
   }
   .container-fluid.iklan {
-    height: 200px;
+    height: 180px;
   }
   .title-description{
     font-size: small;
