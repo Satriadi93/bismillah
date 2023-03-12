@@ -125,7 +125,14 @@ header {
 .container-fluid.Struktur-organisasi{
   background: url(../Asset/bg-nav.png);
 }
-
+.container.iklan > h3{
+  text-align: left;
+  align-items: start;
+}
+.text-iklan {
+  font-size: 25px;
+  padding: 10px;
+}
 /* Ukuran Handphone */
 
 @media screen and (max-width: 480px) {
@@ -220,9 +227,11 @@ header {
     border-radius: 10px 10px 10px 10px;
     width: 320px;
     height: 100px;
+    
   }
-  .container-fluid.iklan {
-    height: 180px;
+  .text-iklan {
+    font-size: small;
+    padding: 10px;
   }
   .title-description{
     font-size: small;
@@ -230,4 +239,89 @@ header {
   .container.footer{
     font-size: small;
   }
+  
+}
+
+
+/* Halaman Profile */
+
+.about-text {
+  align-items: center;
+}
+.about-text.green {
+  color: green;
+}
+.containerr.visi-parent{
+  display: flex;
+  justify-content: center;
+}
+.container.misi-parent{
+  display: flex;
+  justify-content: center;
+}
+.visi{
+  width: 500px;
+  padding: 5px;
+}
+
+.visi:hover{
+  background-color:#004d47;
+  color:#efd26e ;
+  border-radius: 15px;
+}
+.visi:hover > p{
+  background-color:#004d47;
+  color:#efd26e ;
+  border-radius: 15px;
+}
+.misi{
+  width: 500px;
+  padding: 5px;
+}
+.misi:hover{
+  background-color:#004d47;
+  color:#efd26e ;
+  border-radius: 15px;
+}
+table:hover{
+  color: #efd26e;
+}
+.about-img-usaha{
+  padding-top: 3%;
+}
+.about-text.usaha > h4{
+  text-align: center;
+}
+.card-body.dokumentasi {
+  font-size: medium;
+}
+@media screen and (max-width: 480px) {
+  .img-fluid.profile{
+    padding-top: 2%;
+    height: auto;
+    width: -webkit-fill-available;
+  }
+  .about-text > h4 {
+    padding-top: 10px;
+  }
+  .about-text > p {
+    padding-top: 10px;
+    font-size: small;
+  }
+  .about-img.konten2{
+    display: none;
+  }
+  .img-fluid.usaha{
+    padding-top: 2%;
+    padding-left: 2%;
+    height: auto;
+    width: -webkit-fill-available;
+  }
+  .about-text.usaha > h4{
+    text-align: center;
+  }
+  .card-body.dokumentasi {
+    font-size: small;
+  }
+
 }
